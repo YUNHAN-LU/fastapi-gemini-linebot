@@ -2,14 +2,12 @@ from fastapi import FastAPI , HTTPException, Request
 from linebot import LineBotApi, WebhookHandler
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 from api.gemini import Gemini
-
 import os
-app = FastAPI()
 
+app = FastAPI()
 line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
 line_handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
 working_status = os.getenv("DEFALUT_TALKING", default = "true").lower() == "true"
-
 gemini = Gemini()
 
 
@@ -19,7 +17,6 @@ async def callback(request:Request):
     signature = request.headers["X-Line-Signature"]
     # get request body as text
     body = await request.body()
-
     # handle webhook body
     try:
         line_handler.handle(body.decode(), signature)
