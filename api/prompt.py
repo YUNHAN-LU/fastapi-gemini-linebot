@@ -9,7 +9,7 @@ LANGUAGE_TABLE = {
 }
 
 AI_GUIDELINES = """"""
-path = "resource/QAdata2.txt"
+path = "resource/QAdata.txt"
 with open(path) as f:
     lines = f.readlines()
 AI_GUIDELINES = ''.join(lines)
