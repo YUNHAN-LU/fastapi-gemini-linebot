@@ -1,6 +1,7 @@
 # FastAPI Gemini Line Bot
 
 本專案是一個使用 FastAPI 實現的 Line Bot，並整合了 Gemini API 以提供常見問題集的答案。
+請見我的 [medium](<https://medium.com/@harry12345345/%E5%B0%87%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C%E9%9B%86-faq-%E8%AE%8A%E6%88%90%E5%85%8D%E8%B2%BBgemini-line-bot%E6%A9%9F%E5%99%A8%E4%BA%BA-%E7%94%A8zeabur%E5%B0%87fastapi%E9%83%A8%E5%B1%AC%E5%9C%A8aws%E4%BC%BA%E6%9C%8D%E5%99%A8%E4%B8%8A-61a1f60b9243>) 
 
 ## 功能
 
