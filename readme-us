@@ -1,0 +1,42 @@
+# FastAPI Gemini Line Bot
+
+This project is a Line Bot built using FastAPI and integrated with the Gemini API to provide answers to frequently asked questions (FAQs).  
+Check out my [Medium post](https://medium.com/@harry12345345/%E5%B0%87%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C%E9%9B%86-faq-%E8%AE%8A%E6%88%90%E5%85%8D%E8%B2%BBgemini-line-bot%E6%A9%9F%E5%99%A8%E4%BA%BA-%E7%94%A8zeabur%E5%B0%87fastapi%E9%83%A8%E5%B1%AC%E5%9C%A8aws%E4%BC%BA%E6%9C%8D%E5%99%A8%E4%B8%8A-61a1f60b9243)
+
+## Features
+
+- **FastAPI Framework**: The bot is built using the FastAPI framework.
+- **Gemini API Integration**: Retrieves responses from the Gemini API.
+- **Line Messaging API**: Communicates with users through the Line Messaging API.
+
+## Requirements
+
+- Python 3.7+
+- FastAPI
+- Uvicorn
+- Line-Bot-SDK
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/YUNHAN-LU/fastapi-gemini-linebot
+    cd fastapi-gemini-linebot
+    ```
+
+2. Install dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Running the Bot
+
+1. Set environment variables for the Gemini and Line API keys.
+2. Start the FastAPI server using Uvicorn:
+    ```sh
+    uvicorn main:app --reload
+    ```
+
+## Usage
+
+- Interact with the customer
